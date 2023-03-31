@@ -1,0 +1,48 @@
+*{
+    background: #fff;
+    
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left img{
+    width: 40vw;
+    height: 50vh;
+}
+.right{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.hero button{
+    border-radius: 10%;
+    background: rgb(7, 81, 230);
+    color: #fff;
+}
+
+.footer{
+    height: 30px;
+    width: 100vw;
+    margin-top: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(124, 124, 124);
+}
+
+.footer a{
+    background: rgb(124, 124, 124);
+    color: rgb(56, 56, 56);
+}
+
